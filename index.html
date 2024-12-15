@@ -7,10 +7,11 @@
 </head>
 <body>
     <div class="functionsTab">
-        <ul>
-            <li class="function" id="1"><textarea spellcheck="false"></textarea><button class="close">x</button></li>
-            <li id="addFunction"><button id="addFunctionButton">+</button></li>
+        <ul id="funtionsList">
+            <li class="function" id="1"><textarea spellcheck="false"></textarea><button class="close" onclick="delFunc(this.parentNode.id)">x</button></li>
         </ul>
+        <div id="addFunction"><button id="addFunctionButton" onclick="createFunc(this.parentNode.id)">+</button></div>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
