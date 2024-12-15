@@ -1,0 +1,98 @@
+html, body {
+    margin-top: 0px;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    overflow: hidden;
+}
+.functionsTab {
+    background-color: rgb(232, 236, 240);
+    margin: 0;
+    padding: 0;
+    width: 40vw;
+    height: 100dvh;
+    
+}
+#addFuction {
+    height: 50px;
+}
+#addFunctionButton {
+    margin: 6px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 12px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(218, 219, 219);
+    transition: 400ms cubic-bezier(.25,.1,.25,1);
+}
+#addFunctionButton:hover {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 12px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(163, 197, 203);
+}
+ul {
+    margin-top: 0px;
+    padding: 0%;
+    list-style-type: none;
+}
+div {
+    margin: 0px;
+}
+textarea {
+    resize: none;
+    margin: 6px;
+    border-radius: 12px;
+    background-color: rgb(212, 216, 220);
+    transition: 400ms cubic-bezier(.25,.1,.25,1);
+    padding: 4px;
+    border: 2px;
+    overflow: auto;
+    outline: none;
+    font-family: 'Segoe UI';
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display:inline-block;
+}
+textarea:hover {
+    resize: none;
+    margin: 6px;
+    border-radius: 12px;
+    background-color: rgb(218, 224, 227);
+}
+.close {
+    display:inline-block;
+    margin-top: 6px;
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: x-small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(218, 219, 219);
+    transition: 400ms cubic-bezier(.25,.1,.25,1);
+}
+.close:hover {
+    background-color: rgb(173, 177, 177);
+}
+.function {
+    display: flex;
+    background-color: rgb(244, 247, 250);
+    width: calc(40vw - 12px);
+    margin-left: 6px;
+    border-radius: 12px;
+}
